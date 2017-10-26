@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorDarkBlue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Empty view under the toolbar-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/design_layout_more"
+            android:padding="10dp"
+            >
+
+            <!--Title-->
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scienceTitle"
+                android:textSize="25sp"/>
+
+            <!--Separation View-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="20dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofjrjigojodrngdp, hlb;lmf;b ghk;l;b dgfgljhvjdfbio dkjgoidn bojfijg ip ds jgn gijbji fnifk j iosgjpifnbio fjgifd binjb oidjgi ofj"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.thoma.otherside_kotlin.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Empty view under the toolbar-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:id="@+id/layout_entrance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:visibility="visible">
+
+            <!--Title-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="15dp"
+                android:text="Tunnel Entrance"
+                android:textSize="30sp"/>
+
+            <!--Description-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Let's dig a new Tunnel together ! \nPlease fill the form to know where we should start digging."
+                android:textSize="17sp"/>
+
+            <!--Separation View-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/darker_gray"/>
+
+            <!--First Field : Title of the tunnel-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/title_tunnel"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Exemple: Home"
+                android:textSize="18sp"/>
+
+            <!--Separation View-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/darker_gray"/>
+
+            <!--Second Field : Address of the entrance of tunnel-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/address_tunnel"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Example: 221b Baker St, London"
+                android:textSize="18sp"/>
+
+            <!--Separation View-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Or"
+                android:textSize="17sp"/>
+
+            <!--Third Field : Coordinate of the entrance of tunnel-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coordonnate"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude : "
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/latitude_tunnel"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: 48.856614"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude : "
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/longitude_tunnel"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: 2.352222"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+            <!--Separation View-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/darker_gray"/>
+
+            <!--Validation Button-->
+            <Button
+                android:id="@+id/dig_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIG !"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

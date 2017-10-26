@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OtherSide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="scienceTitle">Dig a Tunnel through Earth</string>
+
+    <!--About String-->
+    <string name="about_secret_goal">This application is actually a sample application for the new Android programming language, \'Kotlin\'.\nThe source code for this application is fully available on Github.\nYou can access it from my github developer page, or by clicking the button below to copy the direct link.</string>
+    <string name="about_secret_goal_title">Secret goal of this Application</string>
+    <string name="about_dev_description">I am a French student in engineering school, passionate about Android programming.\nI developed this application to explore all the basic functionality of an application with \'Kotlin\'.\nI think this will be the main programming language for Android in the coming years.\nPlease contact me if you have any comments, ideas for improvements or problems with the application, or if you'd like to get in touch with me.</string>
+    <string name="about_dev_title">About the Developper</string>
+    <string name="app_email">te.otherSide@gmail.com</string>
+    <string name="dev_email">thomasehling.app@gmail.com</string>
+    <string name="github_link">https://github.com/ThomasEhling/OnTheOtherSideKotlin</string>
+
+    <!--Settings Strings-->
+    <string name="title_activity_settings">Settings</string>
+
+</resources>

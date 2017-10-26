@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_tunnel"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="New Tunnel"/>
+        <item
+            android:id="@+id/nav_list_tunnels"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="My Tunnels"/>
+        <item
+            android:id="@+id/nav_popular"
+            android:icon="@drawable/ic_whatshot_black_24dp"
+            android:title="Popular"/>
+        <item
+            android:id="@+id/nav_historic"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Historic"/>
+
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"/>
+            <item
+                android:id="@+id/nav_science"
+                android:icon="@drawable/ic_school_black_24dp"
+                android:title="A Litle bit of science"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About this App"/>
+        </menu>
+    </item>
+
+</menu>
